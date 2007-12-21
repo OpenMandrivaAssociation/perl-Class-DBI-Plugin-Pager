@@ -20,6 +20,7 @@ BuildRequires:  perl(Class::Data::Inheritable)
 BuildRequires:  perl(Class::DBI)
 BuildRequires:  perl(Test::Exception)
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 Adds a pager method to your class that can query using SQL::Abstract
