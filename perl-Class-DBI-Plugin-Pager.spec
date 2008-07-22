@@ -1,7 +1,7 @@
 %define realname Class-DBI-Plugin-Pager
 %define name perl-%{realname}
 %define version 0.561
-%define release %mkrel 4
+%define release %mkrel 6
 
 Summary:	Paged queries for CDBI
 Name:		%{name}
