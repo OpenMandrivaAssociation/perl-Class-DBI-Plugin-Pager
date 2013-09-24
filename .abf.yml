@@ -1,2 +1,4 @@
+removed_sources:
+  Class-DBI-Plugin-Pager-0.561.tar.bz2: 1d9f2ad27b95229ae6a13e09b829b3a810a33cfc
 sources:
-  "Class-DBI-Plugin-Pager-0.561.tar.bz2": 1d9f2ad27b95229ae6a13e09b829b3a810a33cfc
+  Class-DBI-Plugin-Pager-0.566.tar.gz: 127c98e7d374b28d9d607ff9f99d2702a43d2ca8
