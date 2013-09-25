@@ -1,15 +1,15 @@
 %define upstream_name    Class-DBI-Plugin-Pager
-%define upstream_version 0.561
+%define upstream_version 0.566
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Paged queries for CDBI
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Class/Class-DBI-Plugin-Pager-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Accessor::Chained::Fast)
@@ -83,4 +83,5 @@ Import perl-Class-DBI-Plugin-Pager
 
 * Sat Apr 08 2006 Arnaud de Lorbeau <devel@mandriva.com> 0.561-1mdk
 - Initial MDV RPM
+
 
