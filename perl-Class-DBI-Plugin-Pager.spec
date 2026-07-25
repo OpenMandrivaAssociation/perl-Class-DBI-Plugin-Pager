@@ -2,14 +2,14 @@
 %define upstream_version 0.566
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Paged queries for CDBI
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Class/Class-DBI-Plugin-Pager-%{upstream_version}.tar.gz
+URL:		https://github.com/majesticcpan/class-dbi-plugin-pager
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAJESTIC/Class-DBI-Plugin-Pager-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
