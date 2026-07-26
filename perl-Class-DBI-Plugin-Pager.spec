@@ -1,15 +1,13 @@
 %define upstream_name    Class-DBI-Plugin-Pager
-%define upstream_version 0.566
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.566
+Release:	5
 
 Summary:	Paged queries for CDBI
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		https://github.com/majesticcpan/class-dbi-plugin-pager
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAJESTIC/Class-DBI-Plugin-Pager-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAJESTIC/Class-DBI-Plugin-Pager-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -27,7 +25,7 @@ Adds a pager method to your class that can query using SQL::Abstract
 where clauses, and limit the number of rows returned to a specific subset.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -54,8 +52,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Thu Jul 23 2009 Jérôme Quelin <jquelin@mandriva.org> 0.561.0-1mdv2011.0
 + Revision: 398795
 - rebuild
-- using %%perl_convert_version
-- fixed source & buildrequires fields
+- using %0.566 fixed source & buildrequires fields
 
 * Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.561-6mdv2009.0
 + Revision: 241183
